@@ -1,13 +1,18 @@
 <html>
     <head>
         <title>MyZomato</title>
-        <link href="Gunelisting.css" rel="stylesheet" type="text/css"/>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header>
             <div id="brand">
-                <a href="../ZomatoHomePage/MyZomato.html">MyZomato</a>
-            </div>
+                
+                <a href="../NewZomatoHomePage/NewMyZomato.html">MyZomato</a>
+                <a class="btn" href="../NewZomatoHomePage/NewMyZomato.html">Home
+                </a>
+                
+                </div>
+    
             <div id="social">
                  <a href="https://www.facebook.com/">
                     <img src="https://i.ibb.co/nPBGt2L/facebook-last.png" alt="fb" class="socialLogo"/>
@@ -20,6 +25,7 @@
                 </a>
             </div>
         </header>
+
         <div id="content">
             <div id="filterDiv">
                 <div h4 class="content1">Filters</h4></div>
@@ -55,6 +61,17 @@
                 </div>
             </div>
             <div id="ContentDiv">
+         
+                    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Enter Restaurant Name" title="Type in a category">
+        
+                    <div class="componentSubHeading1">
+                        Results for
+                        </div>
+                        <div class="componentSubHeading1">
+                            Number of results:3
+                            </div>
+                
+                
                 <div class="tilecontainer">
                     <div class="tileComponent1">
                         <img src="Images/chicken (3).jpg" alt="dinner"/>
@@ -68,18 +85,11 @@
                         <div>Average</div>
                         Rs 500
                         </div>
-                        <div class="tilecontainer1">
-                            <h4 class="content">Lunch</h4>
-                        </div>
-                        <div class="tilecontainer2">
-                            <h4 class="content">NightLife</h4>
-                        </div>
-                        <div class="tilecontainer3">
-                            <h4 class="content">North East</h4>
-                        </div>
-                        <div class="tilecontainer4">
-                            <h4 class="content">Chinese</h4>
-                        </div>
+                        <button class="btn1"><i class="fa fa-home"></i> Lunch</button>
+                        <button class="btn2"><i class="fa fa-home"></i> NightLife</button>
+                        <button class="btn3"><i class="fa fa-home"></i> North East</button>
+                        <button class="btn4"><i class="fa fa-home"></i>Chinese</button>
+                        
                     </div>
                 </div>
                 <div class="tilecontainer">
@@ -95,18 +105,11 @@
                         <div>Average</div>
                         Rs 450
                         </div>
-                        <div class="tilecontainer1">
-                            <h4 class="content">Lunch</h4>
-                        </div>
-                        <div class="tilecontainer2">
-                            <h4 class="content">Dinner</h4>
-                        </div>
-                        <div class="tilecontainer3">
-                            <h4 class="content">North Indian</h4>
-                        </div>
-                        <div class="tilecontainer4">
-                            <h4 class="content">Chinese</h4>
-                        </div>
+                        <button class="btn1"><i class="fa fa-home"></i> Lunch</button>
+                        <button class="btn2"><i class="fa fa-home"></i> Dinner</button>
+                        <button class="btn3"><i class="fa fa-home"></i> North Indian</button>
+                        <button class="btn4"><i class="fa fa-home"></i>Chinese</button>
+                        
                     </div>
                 </div>
                 <div class="tilecontainer">
@@ -122,18 +125,11 @@
                         <div>Average</div>
                         Rs 350
                         </div>
-                        <div class="tilecontainer1">
-                            <h4 class="content">Snacks</h4>
-                        </div>
-                        <div class="tilecontainer2">
-                            <h4 class="content">Lunch</h4>
-                        </div>
-                        <div class="tilecontainer3">
-                            <h4 class="content">North Indian</h4>
-                        </div>
-                        <div class="tilecontainer5">
-                            <h4 class="content">South indian</h4>
-                        </div>
+                        <button class="btn1"><i class="fa fa-home"></i> Snacks</button>
+                        <button class="btn2"><i class="fa fa-home"></i> Lunch</button>
+                        <button class="btn3"><i class="fa fa-home"></i> North Indian</button>
+                        <button class="btn4"><i class="fa fa-home"></i>South indian</button>
+                        
                     </div>
                 </div>
             </div>
